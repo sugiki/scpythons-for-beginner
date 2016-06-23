@@ -5,9 +5,11 @@
 
 以下の文字を表示してください  
 
-> Pastafarianism Flying Spaghetti Monsterism
-> 1234
-> Monty Python's Flying Circus
+```
+Pastafarianism Flying Spaghetti Monsterism
+1234
+Monty Python's Flying Circus
+```
 
 以下の通りに表示されれば正しく動作しています
 
