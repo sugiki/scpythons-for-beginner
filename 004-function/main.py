@@ -14,7 +14,7 @@ log()
 
 # 1. 100 と表示する関数 hundred
 def hundred():
-    print(100)
+    # ここを実装します
 
 hundred()
 
@@ -22,13 +22,13 @@ hundred()
 # このときの呼び出し側の値を引数（ひきすう）と言います
 # 以下の関数は、与えられた数値の引数x を +1 して表示します
 def increment(x):
-    print(x + 1)
+    # ここを実装します
 
 increment(1)
 
 # 2. 数値の引数を 2 で割ったあまりを表示する関数 even
 def even(x):
-    print(x % 2)
+    # ここを実装します
 
 even(1)
 even(2)
