@@ -15,6 +15,6 @@ def increment(x):
 
 assert(hello() == 'hello world')
 assert(ignore(1) == 'ignored')
-assert(ignore('1' == 'ignored'))
+assert(ignore('1') == 'ignored')
 assert(increment(0) == 1)
 assert(increment(11) == 12)
