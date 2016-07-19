@@ -1,0 +1,45 @@
+# 行頭に # を書くと、プログラムとして処理されない文字列（コメントと呼ばれます）を書くことができます
+
+# 以下の例にならって、関数を実装してください
+# ex. 与えられた引数aが偶数のときは 'EVEN' 奇数の時は 'ODD' と返却する関数 even_odd
+def even_odd(a):
+    if a % 2 == 0:
+        return 'EVEN'
+    return 'ODD'
+
+# 1. 与えられた引数aをa月として、その月の最大の日数を返却する関数dates_of_month
+# switchを使ってもかまいません
+def dates_of_month(a):
+    # ここを実装します
+    pass
+
+# 与えられた文字列stringの文字数が、x文字より多いなら 'x文字より多いです'
+# ちょうどx文字なら 'x文字です'
+# x文字以下なら 'x文字より少ないです' と返却する関数 char_length
+def char_length(string, x):
+    # ここを実装します
+    pass
+
+
+assert(even_odd(0) == 'EVEN')
+assert(even_odd(1) == 'ODD')
+assert(even_odd(2) == 'EVEN')
+assert(even_odd(99) == 'ODD')
+assert(even_odd(-98) == 'EVEN')
+
+assert(dates_of_month(1) == 31)
+assert(dates_of_month(2) == 29)
+assert(dates_of_month(3) == 31)
+assert(dates_of_month(4) == 30)
+assert(dates_of_month(5) == 31)
+assert(dates_of_month(6) == 30)
+assert(dates_of_month(7) == 31)
+assert(dates_of_month(8) == 31)
+assert(dates_of_month(9) == 30)
+assert(dates_of_month(10) == 31)
+assert(dates_of_month(11) == 30)
+assert(dates_of_month(12) == 31)
+
+assert(char_length('練習用', 2) == '2文字より多いです')
+assert(char_length('練習用', 3) == '3文字です')
+assert(char_length('練習用', 4) == '4文字より少ないです')
