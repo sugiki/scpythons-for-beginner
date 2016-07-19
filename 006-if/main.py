@@ -8,7 +8,6 @@ def even_odd(a):
     return 'ODD'
 
 # 1. 与えられた引数aをa月として、その月の最大の日数を返却する関数dates_of_month
-# switchを使ってもかまいません
 def dates_of_month(a):
     # ここを実装します
     pass
