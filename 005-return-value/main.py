@@ -18,3 +18,6 @@ assert(ignore(1) == 'ignored')
 assert(ignore('1') == 'ignored')
 assert(increment(0) == 1)
 assert(increment(11) == 12)
+
+print('全問正解です！おめでとうございます！')
+print('あなたは与えられたすべての問題を解きました！')

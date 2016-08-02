@@ -7,6 +7,10 @@ def even_odd(a):
         return 'EVEN'
     return 'ODD'
 
+# の次の行は、4個の空白が必要です（これをインデントよびます）
+# インデントは、キーボード左上にある、横長のキー Tab キーで入力できます
+# functionでも同じものがありました
+
 # 1. 与えられた引数aをa月として、その月の最大の日数を返却する関数dates_of_month
 def dates_of_month(a):
     # ここを実装します
@@ -45,3 +49,6 @@ assert(char_length('練習用', 4) == '4文字より少ないです')
 assert(char_length('マンゴー', 3) == '3文字より多いです')
 assert(char_length('マンゴー', 4) == '4文字です')
 assert(char_length('マンゴー', 5) == '5文字より少ないです')
+
+print('全問正解です！おめでとうございます！')
+print('あなたは与えられたすべての問題を解きました！')
