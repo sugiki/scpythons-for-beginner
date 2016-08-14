@@ -32,7 +32,7 @@ students_scores = [
 # 例)
 # for x in range(4):
 #    print(x)
-# は、以下のように表示される
+# は、以下のように表示されます
 # 0
 # 1
 # 2
