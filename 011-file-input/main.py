@@ -17,7 +17,7 @@ for line in file:
 file.close()
 
 # TODO このファイルを読み込み、最も大きな数値maxともっと小さな数値minを計算してください
-# 読み込んだ時の一業は文字列(string)として読み込まれます
+# 読み込んだ時の1行は文字列(string)として読み込まれます
 # 読み込んだ文字列(string)をまず、分解(split)し、数値に変換します
 
 file = open('011.csv', 'r')
